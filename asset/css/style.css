@@ -1,247 +1,216 @@
-
+/*
 * {
     padding:0;
     margin:0;
 }
-
+*/
 /*index styling*/
- .body1 {
-    background-image:url('C:/Users/gargi/Desktop/Traning/homework/Basic-Portfolio/asset/images/geometric-leaves.png');
-     
+body {
+  background-image: url("../images/geometric-leaves.png");
+}
+/*Header style*/
+
+span {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 70px;
+  padding: 25px;
 }
 
- span {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 70px;
-    padding: 25px;
-
+#name-logo {
+  background-color: #4aaaa5;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: 700px;
+  float: left;
+  text-decoration: none;
+  padding: 0px 10px;
+  width: 250px;
+  text-align: center;
+}
+#header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 0 30px 0;
+  height: 80px;
+}
+.container {
+  height: 80px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*Navbar styling*/
+nav {
+  float: right;
+  margin-top: 20px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
 }
 
- .navbar {
-      background-color: #ffffff;
-      border-bottom: 1px solid #cccccc;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 60px;
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #777777;
+  margin-right: 20px;
 }
 
- .nav1 {
-    text-align: right;
-    margin: 0px;
-    padding: 0px;
+nav ul li a:hover {
+  color: #777;
+  text-decoration: underline;
 }
-
- nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0px 15px;
-    padding-bottom: 20px;
-    padding-right: 60px;
+/*Main content styling*/
+#main-container {
+  margin-top: 130px;
 }
-
- nav ul li a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #777777;
-    margin-right: 20px;
-    padding-right: 15px;
+.section-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cccccc;
 }
-
- a:hover {
-     background-color: #4aaaa5;
-     color:#dddddd;
-     border-radius: 12px;
-     padding:7px;
- }
- .content {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    color: #777777;
-    width: 650px;
-    margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding: 40px;
-    border: 1px solid #dddddd;
-    position: relative;
+.content {
+  background: white;
+  color: #777777;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 0 40px 0;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  float: left;
 }
-
- .heading {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+#image {
+  height: 170px;
+  width: 170px;
+  margin-right: 30px;
+  float: left;
 }
-
- img {
-    float: left;
+.side-bar {
+  background-color: #ffffff;
+  float: right;
+  padding: 30px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #dddddd;
 }
-
- .logo {
-    margin-top: 0px;
-    background-color: #ffffff;
-    float: right;
-    width: 270px;
-    height: 150px;
-    margin-left: 100px;
-    margin-right: 250px;
-    padding: 5px;
-    border: 1px solid #dddddd;
-
+.social-icon {
+  margin: 20px 10px 20px 10px;
 }
-
- .l1 {
-    margin-top:20px;
-    margin-right:20px;
-    margin-left:10px;
-    margin-bottom:20px;
+.social-icon img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 5px;
 }
-
- .head {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #4aaaa5;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.icon-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #4aaaa5;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cccccc;
 }
-
- .foot {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     color:white;
-     font-size: 15px;
-     background-color:#666666;
-     height:35px;
-     text-align: center;
-     padding-top:30px;
-     border-top:5px solid #4aaaa5;
-     margin-top:20px;
-     position:fixed;
-     left:0;
-     bottom:0;
-     width:100%
-
+/* Footer styling */
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: 15px;
+  background-color: #666666;
+  height: 60px;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 5px solid #4aaaa5;
+  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /*Forms styling*/
-
- .body3 {
-    background-image:url('C:/Users/gargi/Desktop/Traning/homework/Basic-Portfolio/asset/images/geometric-leaves.png');
-     }
-
- .forms {
-    margin-top: 80px;
-    margin-bottom:100px;
-    margin-left: 70px;
-    height: 500px;
-    background-color: #ffffff;
-    color: #666666;
-    width: 650px;
-    border: 1px solid #cccccc;
+.forms {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 500px;
+  background-color: #ffffff;
+  color: #666666;
+  width: 650px;
+  border: 1px solid #cccccc;
+}
+.inputs {
+  padding: 35px;
 }
 
- .head2 {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      color: #4aaaa5;
-      padding-bottom: 10px;
-  }
-
-  .inputs {
-     padding: 35px;
- }
-
-  .input1 {
-      font-family: Arial, Helvetica, sans-serif;  
-      width: 580px;
-      height: 25px;
-      margin: 5px 0px;
-    }
-
-  .input2 {
-    font-family: Arial, Helvetica, sans-serif; 
-    width: 580px;
-    height: 25px;
-    margin: 5px 0px;
+input[type="text"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 580px;
+  height: 25px;
+  margin: 5px 0px;
 }
 
- .input3 {
-    font-family: Arial, Helvetica, sans-serif; 
-    margin: 5px 0px;
+input[type="email"] {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 580px;
+  height: 25px;
+  margin: 5px 0px;
 }
 
- .input4 {
-    font-family: Arial, Helvetica, sans-serif; 
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 10px 20px;
-    border: none;
+.input[textarea="name"] {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0px;
 }
-
-  .input4:hover {
-      background-color: #666666;
- }
+.input[type="button"] {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 10px 20px;
+  border: none;
+}
+.input[type="button"]:hover {
+  background-color: #666666;
+}
 /*Portfolio styling*/
-
- .body2 { 
-     background-image: url('C:/Users/gargi/Desktop/Traning/homework/Basic-Portfolio/asset/images/geometric-leaves.png');
+.Portfolio-image {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding-left: 30px;
+  width: 550px;
+  height: 510px;
+  margin: 0 50px 0 0;
 }
 
- .img2 {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    margin-left: 70px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    width: 450px;
-    height: 510px;
+div.gallery {
+  margin: 15px;
+  position: relative;
+  display: inline-block;
 }
 
- div.gallery {
-    margin: 15px;
-    position: relative;
-    display: inline-block;
-    }
-
- .gallery .text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-small;
-    background-color: #4aaaa5;
-    color: #dddddd;
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 70%;
-    text-align: center;
-    width: 100%;
-    padding: 5px 0px;
+.gallery img {
+  width: 190px;
+  height: 120px;
 }
-
- .head3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
- .line {
-   height: 1px;
-   background-color: #cccccc;
-   border: none;
-}
-
- .line1 {
-  height: 2px;
-  background-color: #cccccc;
-  border: none;
-}
-
- .line2 {
-  height: 2px;
-  background-color: #cccccc;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
+.gallery .text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-small;
+  background-color: #4aaaa5;
+  color: #dddddd;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 70%;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0px;
 }
