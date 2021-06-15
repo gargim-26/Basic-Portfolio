@@ -151,32 +151,32 @@ nav ul li a:hover {
   padding: 35px;
 }
 
+input[type="text"], input[type="email"], input[textarea="name"], input[type="button"]
+{
+  font-family:Arial, Helvetica, sans-serif;
+}
 input[type="text"] {
-  font-family: Arial, Helvetica, sans-serif;
   width: 580px;
   height: 25px;
   margin: 5px 0px;
 }
 
 input[type="email"] {
-  font-family: Arial, Helvetica, sans-serif;
   width: 580px;
   height: 25px;
   margin: 5px 0px;
 }
 
-.input[textarea="name"] {
-  font-family: Arial, Helvetica, sans-serif;
+input[textarea="name"] {
   margin: 5px 0px;
 }
-.input[type="button"] {
-  font-family: Arial, Helvetica, sans-serif;
+input[type="button"] {
   color: #ffffff;
   background-color: #4aaaa5;
   padding: 10px 20px;
   border: none;
 }
-.input[type="button"]:hover {
+input[type="button"]:hover {
   background-color: #666666;
 }
 /*Portfolio styling*/
